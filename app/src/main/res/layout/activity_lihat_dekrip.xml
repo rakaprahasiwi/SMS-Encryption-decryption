@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LihatDekripActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/lblMsgFromDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="dari"
+            android:textColor="#777777"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            app:cardBackgroundColor="@color/cardview_dark_background">
+
+            <TextView
+                android:id="@+id/txtMsgFromDe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="msg"
+                android:textColor="#fff5f5"
+                android:textSize="16dp" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/timeMsgFromDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="waktu"
+            android:textColor="#999999"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>
